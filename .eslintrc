@@ -1,0 +1,18 @@
+{
+    "env":{
+        "browser": true,
+        "node": true,
+        "es6": true,
+        "serviceworker": true,
+        "mongo": true,
+        "mocha": true
+    },
+    "globals":{
+        "_": true
+    },
+    "rules": {
+        "comma-dangle": [2, "never"],
+        "no-console": 2,
+        "no-constant-condition": 2
+    }
+}
